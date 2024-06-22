@@ -27,8 +27,11 @@ cost-effective sequencing depth that is required to achieve sufficient reproduci
 ## Scripts
 
 Nelsen_mdCCR.R : This script uses mdCCR to estimate the reproducibility in case of data following Nelsen 4.2.12 copula distribution. The results correspond to section 4.3 in the paper.
+
 Gumbel_mdCCR.R : This script uses mdCCR to estimate the reproducibility in case of data following Gumbel-Hougaard copula distribution. The results correspond to section 4.3 in the paper.
+
 Realdata_platform_mdCCR.R : This script uses mdCCR to estimate the reproducibility of different platforms (i) TransPlex, (ii) SMARTer, and (iii) C1 to produce scRNA-seq data. The results correspond to section 5.1 in the paper.
+
 Realdata_downsample_mdCCR.R : This script uses mdCCR to estimate the reproducibility of different sequencing depths to produce scRNA-seq data. The results correspond to section 5.2 in the paper.
 
 
